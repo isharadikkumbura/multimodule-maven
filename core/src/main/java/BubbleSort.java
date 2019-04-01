@@ -10,7 +10,7 @@ public class BubbleSort extends Sort{
             {
                 if (arr[j] > arr[j + 1])
                 {
-                    // swap arr[j] and arr[j+1]
+                    // swap arr[j] and arr[j+1] making a conflict in master
                     temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
