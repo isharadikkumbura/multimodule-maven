@@ -18,8 +18,7 @@ public class BubbleSort extends Sort{
                 }
             }
 
-            // IF no two elements were
-            // swapped by inner loop, then break
+            
             if (swapped == false)
                 break;
 
